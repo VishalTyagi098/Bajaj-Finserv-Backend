@@ -8,9 +8,9 @@ const port = 8000;
 app.use(bodyParser.json());
 app.use(cors());
 
-const userId = 'Shubhra Pathak';
-const email = 'sr4921@srmist.edu.in';
-const rollNumber = 'RA2111003010375';
+const userId = 'Vishal Tyagi';
+const email = 'vs7747@srmist.edu.in';
+const rollNumber = 'RA2111003010394';
 
 // POST method endpoint
 app.post('/bfhl', (req, res) => {
